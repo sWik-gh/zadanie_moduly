@@ -7,7 +7,7 @@ function removeUser(users, id) {
 }
 function findUser(users, id) {
     let userTofind = users.find(user => user.id === id)
-    return userTofind.name;
+    return userTofind;
 }
 
 export { addUser, removeUser, findUser }
