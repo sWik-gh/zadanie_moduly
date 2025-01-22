@@ -1,5 +1,5 @@
-function substract(a, b) {
+function subtract(a, b) {
     return a - b;
 }
 
-export default substract;
+export default subtract;
